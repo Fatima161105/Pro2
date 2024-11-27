@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DatabaseToolSources">
+    <data-source name="localhost3" uuid="1734f438-2f07-4515-8e5d-6cbc9a0e7359" type="SQLITE">
+      <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.45.1" major-version="3" minor-version="45" jdbc-name="SQLite JDBC" jdbc-version="3.45.1.0" jdbc-major-version="3" jdbc-minor-version="45" />
+      <user-name />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+            <name qname="main1" operator="@" />
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:sqlite:identifier.sqlite</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="sqlite.xerial" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="enable_load_extension" value="true" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="localhost4" uuid="88c813c4-ef73-4205-b41f-42582981c8b8" type="MSSQL">
+      <base-info connect-type="DB_DEFAULT" product="Microsoft SQL Server" version="16.00.1000" major-version="16" minor-version="0" jdbc-name="Microsoft JDBC Driver 11.2 for SQL Server" jdbc-version="11.2.0.0" jdbc-major-version="11" jdbc-minor-version="2" />
+      <user-name>Fatima</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="master" operator="@">
+              <node kind="schema">
+                <name qname="dbo" />
+                <name qname="guest" />
+                <name qname="INFORMATION_SCHEMA" />
+                <name qname="sys" />
+                <name qname="db_owner" />
+                <name qname="db_accessadmin" />
+                <name qname="db_securityadmin" />
+                <name qname="db_ddladmin" />
+                <name qname="db_backupoperator" />
+                <name qname="db_datareader" />
+                <name qname="db_datawriter" />
+                <name qname="db_denydatareader" />
+                <name qname="db_denydatawriter" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="Analitics" operator="@">
+              <node kind="schema">
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="main" operator="@" />
+            <node kind="database" qname="master" operator="@">
+              <node kind="schema">
+                <name qname="public" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:sqlserver://localhost:1433;database=master</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="Microsoft SQL Server" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="encrypt" value="false" />
+        <property name="sendTimeAsDatetime" value="false" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="F@localhost" uuid="396fada5-bf2a-4b00-8d04-2d2ea222b7b3" type="MSSQL">
+      <base-info connect-type="DB_DEFAULT" product="Microsoft SQL Server" version="16.00.1000" major-version="16" minor-version="0" jdbc-name="Microsoft JDBC Driver 11.2 for SQL Server" jdbc-version="11.2.0.0" jdbc-major-version="11" jdbc-minor-version="2" />
+      <user-name>Fatima</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="master" operator="@">
+              <node kind="schema">
+                <name qname="dbo" />
+                <name qname="guest" />
+                <name qname="INFORMATION_SCHEMA" />
+                <name qname="sys" />
+                <name qname="db_owner" />
+                <name qname="db_accessadmin" />
+                <name qname="db_securityadmin" />
+                <name qname="db_ddladmin" />
+                <name qname="db_backupoperator" />
+                <name qname="db_datareader" />
+                <name qname="db_datawriter" />
+                <name qname="db_denydatareader" />
+                <name qname="db_denydatawriter" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="master" operator="@">
+              <node kind="schema">
+                <name qname="public" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:sqlserver://localhost:1433;database=master</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="Microsoft SQL Server" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="encrypt" value="false" />
+        <property name="sendTimeAsDatetime" value="false" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="localhost5" uuid="60cf4298-634e-419b-9d84-b4c96c234fd5" type="SQLITE">
+      <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.45.1" major-version="3" minor-version="45" jdbc-name="SQLite JDBC" jdbc-version="3.45.1.0" jdbc-major-version="3" jdbc-minor-version="45" />
+      <user-name />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:sqlite:identifier.sqlite</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="sqlite.xerial" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="enable_load_extension" value="true" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="Analitic" uuid="9f72d77f-dc14-4f01-bde1-f5d2147247a1" type="SQLITE">
+      <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.45.1" major-version="3" minor-version="45" jdbc-name="SQLite JDBC" jdbc-version="3.45.1.0" jdbc-major-version="3" jdbc-minor-version="45" />
+      <user-name>Fatti</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:sqlite:identifier.sqlite</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="sqlite.xerial" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="enable_load_extension" value="true" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="localhost" uuid="b6083670-4ef8-4eb2-a9e5-abf917b196ed" type="SQLITE">
+      <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.45.1" major-version="3" minor-version="45" jdbc-name="SQLite JDBC" jdbc-version="3.45.1.0" jdbc-major-version="3" jdbc-minor-version="45" />
+      <user-name />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:sqlite:identifier.sqlite</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="sqlite.xerial" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="enable_load_extension" value="true" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="localhost1" uuid="72df37b9-ba1d-4818-a5d0-eafe3e966378" type="SQLITE">
+      <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.45.1" major-version="3" minor-version="45" jdbc-name="SQLite JDBC" jdbc-version="3.45.1.0" jdbc-major-version="3" jdbc-minor-version="45" />
+      <user-name />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:sqlite:C:/Users/Admin/IdeaProjects/Pro2/src/main/java/models/mydatabase1.db</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="sqlite.xerial" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="enable_load_extension" value="true" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="localhost2" uuid="9a8bbfc8-38b8-434a-839d-7699c7f51f4e" type="SQLITE">
+      <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.45.1" major-version="3" minor-version="45" jdbc-name="SQLite JDBC" jdbc-version="3.45.1.0" jdbc-major-version="3" jdbc-minor-version="45" />
+      <user-name />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:sqlite:C:/Users/Admin/IdeaProjects/Pro2/src/main/java/models/mydatabase2.db</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="sqlite.xerial" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="enable_load_extension" value="true" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="localhost7" uuid="45b671c3-27dd-4f09-a4c9-2d5371c100a1" type="SQLITE">
+      <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.45.1" major-version="3" minor-version="45" jdbc-name="SQLite JDBC" jdbc-version="3.45.1.0" jdbc-major-version="3" jdbc-minor-version="45" />
+      <user-name />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:sqlite:C:/Users/Admin/IdeaProjects/Pro2/src/main/java/models/aa.db</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="sqlite.xerial" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="enable_load_extension" value="true" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="localhost8" uuid="56ab75c2-d58d-446a-b635-9c61607cc752" type="SQLITE">
+      <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.45.1" major-version="3" minor-version="45" jdbc-name="SQLite JDBC" jdbc-version="3.45.1.0" jdbc-major-version="3" jdbc-minor-version="45" />
+      <user-name />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:sqlite:C:/Users/Admin/IdeaProjects/Pro2/src/main/java/models/aa.db</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="sqlite.xerial" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="enable_load_extension" value="true" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="localhost6" uuid="daaa0671-12b4-4c30-99ba-c6dd308f0ed4" type="SQLITE">
+      <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.45.1" major-version="3" minor-version="45" jdbc-name="SQLite JDBC" jdbc-version="3.45.1.0" jdbc-major-version="3" jdbc-minor-version="45" />
+      <user-name />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:sqlite:C:/Users/Admin/IdeaProjects/Pro2/src/main/java/models/aa.db</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="sqlite.xerial" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="enable_load_extension" value="true" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+    <data-source name="localhost9" uuid="c5b96f59-27ef-49e4-96af-1275bd60071c" type="SQLITE">
+      <base-info connect-type="DB_DEFAULT" product="SQLite" version="3.45.1" major-version="3" minor-version="45" jdbc-name="SQLite JDBC" jdbc-version="3.45.1.0" jdbc-major-version="3" jdbc-minor-version="45" />
+      <user-name />
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="main" operator="@" />
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <use-database kind="schema">
+        <name qname="main" operator="@" />
+      </use-database>
+      <url>jdbc:sqlite:C:/Users/Admin/IdeaProjects/Pro2/aa.db</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="sqlite.xerial" />
+      <ssh-properties enabled="false" />
+      <jdbc-additional-properties>
+        <property name="enable_load_extension" value="true" />
+      </jdbc-additional-properties>
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+  </component>
+</project>
